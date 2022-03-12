@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(255, 235, 147);
+    height: 600px;
+    width: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.cell {
+    background-color:orange;
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    
+    justify-content: center;
+    
+}
+
+.cell:hover {
+    border-radius: 15%;
+}
