@@ -30,5 +30,7 @@
 }
 
 .cell:hover {
+    transition: transform 0.4s;
     border-radius: 15%;
+    
 }
